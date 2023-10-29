@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="shopListCss.css">
+        <title>My Shopping List</title>
+    </head>
+
+    <body>
+        <div>
+            <h1>What do I need to buy?</h1>
+            <!-- Input field and button for adding the items -->
+            <input type="text" placeholder="I need to buy this" id="addItem" name="addItem" class="input">
+            <button onclick="newItem()" class="addButton">Add</button>
+            <!-- The list container where the items are inserted -->
+            <ul id="itemList"></ul>
+        </div>
+    
+        <script src="shopListJavascript.js"></script>
+    </body>
+</html>
