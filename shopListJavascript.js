@@ -16,6 +16,7 @@ function newItem(){
 
     //  If everything meets the requirements
     else {
+        //  Saves to localStorage
         localStorage.setItem("addItem", document.getElementById("addItem").value);
 
         //  I noticed that the borders of the input field would stay red after the error message color edit, so this should fix that
